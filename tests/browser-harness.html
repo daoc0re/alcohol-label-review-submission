@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Local QA harness — not part of the deployed app</title>
+    <style>
+      body {
+        font: 16px system-ui;
+      }
+      iframe {
+        border: 1px solid #333;
+        height: 1000px;
+        width: 100%;
+        display: block;
+      }
+      button {
+        padding: 10px;
+        margin: 5px;
+      }
+      pre {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Local browser verification</h1>
+    <p>
+      This development-only harness reads the app document. It does not send or
+      retain reviews.
+    </p>
+    <button id="desktop">Desktop 1280px</button
+    ><button id="mobile">Mobile 390px</button
+    ><button id="zoom">Text 200%</button
+    ><button id="audit">Audit current state</button>
+    <pre id="output" role="status">Ready</pre>
+    <iframe id="app" title="Label Review application" src="/"></iframe>
+    <script type="module">
+      import axe from "axe-core";
+      const frame = document.getElementById("app");
+      document.getElementById("desktop").onclick = () =>
+        (frame.style.width = "1280px");
+      document.getElementById("mobile").onclick = () =>
+        (frame.style.width = "390px");
+      document.getElementById("zoom").onclick = () =>
+        (frame.contentDocument.documentElement.style.fontSize = "200%");
+      document.getElementById("audit").onclick = async () => {
+        try {
+          const doc = frame.contentDocument;
+          const win = frame.contentWindow;
+          if (!win.axe) {
+            const script = doc.createElement("script");
+            script.textContent = axe.source;
+            doc.head.appendChild(script);
+          }
+          const audit = await win.axe.run(doc, {
+            runOnly: {
+              type: "tag",
+              values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"],
+            },
+          });
+          const report = {
+            viewport: win.innerWidth,
+            scrollWidth: doc.documentElement.scrollWidth,
+            violations: audit.violations.map((v) => ({
+              id: v.id,
+              impact: v.impact,
+              description: v.description,
+              nodes: v.nodes.map((n) => n.target),
+            })),
+            incomplete: audit.incomplete.map((v) => v.id),
+            localStorage: Object.keys(win.localStorage),
+            sessionStorage: Object.keys(win.sessionStorage),
+            indexedDB: (await win.indexedDB.databases()).map((d) => d.name),
+            serviceWorkers: win.navigator.serviceWorker
+              ? (await win.navigator.serviceWorker.getRegistrations()).length
+              : "unavailable in HTTP test context",
+            externalResources: win.performance
+              .getEntriesByType("resource")
+              .filter(
+                (r) =>
+                  r.name.startsWith("http") &&
+                  !r.name.startsWith(win.location.origin),
+              )
+              .map((r) => r.name),
+          };
+          document.getElementById("output").textContent = JSON.stringify(
+            report,
+            null,
+            2,
+          );
+        } catch (e) {
+          document.getElementById("output").textContent = String(e);
+        }
+      };
+    </script>
+  </body>
+</html>
