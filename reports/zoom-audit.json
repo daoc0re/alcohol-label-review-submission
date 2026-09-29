@@ -1,0 +1,14 @@
+{
+  "viewport": 390,
+  "scrollWidth": 375,
+  "violations": [],
+  "incomplete": [
+    "aria-prohibited-attr",
+    "color-contrast"
+  ],
+  "localStorage": [],
+  "sessionStorage": [],
+  "indexedDB": [],
+  "serviceWorkers": "unavailable in HTTP test context",
+  "externalResources": []
+}

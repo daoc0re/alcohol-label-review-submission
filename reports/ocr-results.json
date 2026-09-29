@@ -1,0 +1,1064 @@
+{
+  "measuredAt": "2026-09-23T15:35:14.545Z",
+  "runtime": "v24.19.0",
+  "platform": "linux",
+  "initializationSeconds": 0.30499352799999996,
+  "records": [
+    {
+      "id": "old-tom",
+      "seconds": 0.953840723,
+      "statuses": {
+        "brand": "Match",
+        "classType": "Match",
+        "abv": "Match",
+        "netContents": "Match",
+        "business": "Match",
+        "warning": "Match",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "old-tom.png",
+          "text": "OLD TOM DISTILLERY\n\nKentucky Straight Bourbon Whiskey\n\n45% Alc./Vol. (90 Proof)\n\n750 mL\n\nBottled by Old Tom Distillery, Frankfort, KY\n\nGOVERNMENT WARNING:\n\n(1) According to the Surgeon General, women should not drink alcoholic beverages\nduring pregnancy because of the risk of birth defects. (2) Consumption of alcoholic\nbeverages impairs your ability to drive a car or operate machinery, and may cause\nhealth problems.\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 95,
+          "lines": [
+            {
+              "text": "OLD TOM DISTILLERY",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 101,
+                "x1": 776,
+                "y1": 145
+              },
+              "panel": 0
+            },
+            {
+              "text": "Kentucky Straight Bourbon Whiskey",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 89,
+                "y0": 207,
+                "x1": 764,
+                "y1": 244
+              },
+              "panel": 0
+            },
+            {
+              "text": "45% Alc./Vol. (90 Proof)",
+              "confidence": 93,
+              "minWordConfidence": 87,
+              "box": {
+                "x0": 87,
+                "y0": 312,
+                "x1": 505,
+                "y1": 344
+              },
+              "panel": 0
+            },
+            {
+              "text": "750 mL",
+              "confidence": 95,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 393,
+                "x1": 220,
+                "y1": 419
+              },
+              "panel": 0
+            },
+            {
+              "text": "Bottled by Old Tom Distillery, Frankfort, KY",
+              "confidence": 96,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 88,
+                "y0": 535,
+                "x1": 701,
+                "y1": 563
+              },
+              "panel": 0
+            },
+            {
+              "text": "GOVERNMENT WARNING:",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 86,
+                "y0": 711,
+                "x1": 506,
+                "y1": 733
+              },
+              "panel": 0
+            },
+            {
+              "text": "(1) According to the Surgeon General, women should not drink alcoholic beverages",
+              "confidence": 95,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 87,
+                "y0": 768,
+                "x1": 1252,
+                "y1": 795
+              },
+              "panel": 0
+            },
+            {
+              "text": "during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 87,
+                "y0": 812,
+                "x1": 1250,
+                "y1": 839
+              },
+              "panel": 0
+            },
+            {
+              "text": "beverages impairs your ability to drive a car or operate machinery, and may cause",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 856,
+                "x1": 1250,
+                "y1": 883
+              },
+              "panel": 0
+            },
+            {
+              "text": "health problems.",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 900,
+                "x1": 319,
+                "y1": 927
+              },
+              "panel": 0
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 0
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.940844488,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "mismatch",
+      "seconds": 0.7507054270000001,
+      "statuses": {
+        "brand": "Match",
+        "classType": "Match",
+        "abv": "Mismatch",
+        "netContents": "Match",
+        "business": "Match",
+        "warning": "Mismatch",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "mismatch.png",
+          "text": "OLD TOM DISTILLERY\n\nKentucky Straight Bourbon Whiskey\n\n40% Alc./Vol. (80 Proof)\n\n750 mL\n\nBottled by Old Tom Distillery, Frankfort, KY\n\nGOVERNMENT WARNING:\n\n(1) According to the Surgeon General, women should drink alcoholic beverages during\npregnancy because of the risk of birth defects. (2) Consumption of alcoholic\nbeverages impairs your ability to drive a car or operate machinery, and may cause\nhealth problems.\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 95,
+          "lines": [
+            {
+              "text": "OLD TOM DISTILLERY",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 101,
+                "x1": 776,
+                "y1": 145
+              },
+              "panel": 0
+            },
+            {
+              "text": "Kentucky Straight Bourbon Whiskey",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 89,
+                "y0": 207,
+                "x1": 764,
+                "y1": 244
+              },
+              "panel": 0
+            },
+            {
+              "text": "40% Alc./Vol. (80 Proof)",
+              "confidence": 92,
+              "minWordConfidence": 84,
+              "box": {
+                "x0": 87,
+                "y0": 312,
+                "x1": 505,
+                "y1": 344
+              },
+              "panel": 0
+            },
+            {
+              "text": "750 mL",
+              "confidence": 95,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 393,
+                "x1": 220,
+                "y1": 419
+              },
+              "panel": 0
+            },
+            {
+              "text": "Bottled by Old Tom Distillery, Frankfort, KY",
+              "confidence": 96,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 88,
+                "y0": 535,
+                "x1": 701,
+                "y1": 563
+              },
+              "panel": 0
+            },
+            {
+              "text": "GOVERNMENT WARNING:",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 86,
+                "y0": 711,
+                "x1": 506,
+                "y1": 733
+              },
+              "panel": 0
+            },
+            {
+              "text": "(1) According to the Surgeon General, women should drink alcoholic beverages during",
+              "confidence": 96,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 87,
+                "y0": 768,
+                "x1": 1295,
+                "y1": 795
+              },
+              "panel": 0
+            },
+            {
+              "text": "pregnancy because of the risk of birth defects. (2) Consumption of alcoholic",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 812,
+                "x1": 1150,
+                "y1": 839
+              },
+              "panel": 0
+            },
+            {
+              "text": "beverages impairs your ability to drive a car or operate machinery, and may cause",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 856,
+                "x1": 1250,
+                "y1": 883
+              },
+              "panel": 0
+            },
+            {
+              "text": "health problems.",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 900,
+                "x1": 319,
+                "y1": 927
+              },
+              "panel": 0
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 0
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.7497210660000001,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "stones",
+      "seconds": 0.8663567690000005,
+      "statuses": {
+        "brand": "Match",
+        "classType": "Match",
+        "abv": "Match",
+        "netContents": "Match",
+        "business": "Match",
+        "warning": "Match",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "stones-front.png",
+          "text": "STONE'S THROW\n\nLondon Dry Gin\n\n40% Alc./Vol.\n\n750 mL\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 94,
+          "lines": [
+            {
+              "text": "STONE'S THROW",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 89,
+                "y0": 101,
+                "x1": 628,
+                "y1": 145
+              },
+              "panel": 0
+            },
+            {
+              "text": "London Dry Gin",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 89,
+                "y0": 207,
+                "x1": 377,
+                "y1": 244
+              },
+              "panel": 0
+            },
+            {
+              "text": "40% Alc./Vol.",
+              "confidence": 91,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 312,
+                "x1": 316,
+                "y1": 343
+              },
+              "panel": 0
+            },
+            {
+              "text": "750 mL",
+              "confidence": 95,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 393,
+                "x1": 220,
+                "y1": 419
+              },
+              "panel": 0
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 0
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.2255052129999999,
+          "qualityNotes": []
+        },
+        {
+          "name": "stones-back.png",
+          "text": "Bottled by Stone's Throw Spirits, Baltimore, MD\n\nGOVERNMENT WARNING:\n\n(1) According to the Surgeon General, women should not drink alcoholic beverages\nduring pregnancy because of the risk of birth defects. (2) Consumption of alcoholic\nbeverages impairs your ability to drive a car or operate machinery, and may cause\nhealth problems.\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 95,
+          "lines": [
+            {
+              "text": "Bottled by Stone's Throw Spirits, Baltimore, MD",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 90,
+                "x1": 772,
+                "y1": 118
+              },
+              "panel": 1
+            },
+            {
+              "text": "GOVERNMENT WARNING:",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 86,
+                "y0": 266,
+                "x1": 506,
+                "y1": 288
+              },
+              "panel": 1
+            },
+            {
+              "text": "(1) According to the Surgeon General, women should not drink alcoholic beverages",
+              "confidence": 95,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 87,
+                "y0": 323,
+                "x1": 1252,
+                "y1": 350
+              },
+              "panel": 1
+            },
+            {
+              "text": "during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 87,
+                "y0": 367,
+                "x1": 1250,
+                "y1": 394
+              },
+              "panel": 1
+            },
+            {
+              "text": "beverages impairs your ability to drive a car or operate machinery, and may cause",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 87,
+                "y0": 411,
+                "x1": 1250,
+                "y1": 438
+              },
+              "panel": 1
+            },
+            {
+              "text": "health problems.",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 87,
+                "y0": 455,
+                "x1": 319,
+                "y1": 482
+              },
+              "panel": 1
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 1
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.6392335309999999,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "import",
+      "seconds": 1.087517695,
+      "statuses": {
+        "brand": "Match",
+        "classType": "Match",
+        "abv": "Match",
+        "netContents": "Match",
+        "business": "Match",
+        "origin": "Match",
+        "warning": "Match",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "import.png",
+          "text": "MAISON DU VERGER\n\nChardonnay\n\n13.5% Alc./Vol.\n\n750 mL\n\nImported by Harbor Imports, New York, NY\n\nProduct of France\n\nGOVERNMENT WARNING:\n\n(1) According to the Surgeon General, women should not drink alcoholic beverages\nduring pregnancy because of the risk of birth defects. (2) Consumption of alcoholic\nbeverages impairs your ability to drive a car or operate machinery, and may cause\nhealth problems.\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 95,
+          "lines": [
+            {
+              "text": "MAISON DU VERGER",
+              "confidence": 93,
+              "minWordConfidence": 91,
+              "box": {
+                "x0": 90,
+                "y0": 101,
+                "x1": 744,
+                "y1": 145
+              },
+              "panel": 0
+            },
+            {
+              "text": "Chardonnay",
+              "confidence": 95,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 87,
+                "y0": 207,
+                "x1": 314,
+                "y1": 244
+              },
+              "panel": 0
+            },
+            {
+              "text": "13.5% Alc./Vol.",
+              "confidence": 92,
+              "minWordConfidence": 92,
+              "box": {
+                "x0": 89,
+                "y0": 312,
+                "x1": 351,
+                "y1": 343
+              },
+              "panel": 0
+            },
+            {
+              "text": "750 mL",
+              "confidence": 95,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 393,
+                "x1": 220,
+                "y1": 419
+              },
+              "panel": 0
+            },
+            {
+              "text": "Imported by Harbor Imports, New York, NY",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 88,
+                "y0": 535,
+                "x1": 700,
+                "y1": 563
+              },
+              "panel": 0
+            },
+            {
+              "text": "Product of France",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 88,
+                "y0": 600,
+                "x1": 336,
+                "y1": 622
+              },
+              "panel": 0
+            },
+            {
+              "text": "GOVERNMENT WARNING:",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 86,
+                "y0": 711,
+                "x1": 506,
+                "y1": 733
+              },
+              "panel": 0
+            },
+            {
+              "text": "(1) According to the Surgeon General, women should not drink alcoholic beverages",
+              "confidence": 95,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 87,
+                "y0": 768,
+                "x1": 1252,
+                "y1": 795
+              },
+              "panel": 0
+            },
+            {
+              "text": "during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 87,
+                "y0": 812,
+                "x1": 1250,
+                "y1": 839
+              },
+              "panel": 0
+            },
+            {
+              "text": "beverages impairs your ability to drive a car or operate machinery, and may cause",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 856,
+                "x1": 1250,
+                "y1": 883
+              },
+              "panel": 0
+            },
+            {
+              "text": "health problems.",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 900,
+                "x1": 319,
+                "y1": 927
+              },
+              "panel": 0
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 0
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 1.086803911,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "ambiguous",
+      "seconds": 0.7429728000000004,
+      "statuses": {
+        "brand": "Match",
+        "classType": "Match",
+        "abv": "Manual Review",
+        "netContents": "Match",
+        "business": "Match",
+        "warning": "Match",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "ambiguous.png",
+          "text": "OLD TOM DISTILLERY\n\nKentucky Straight Bourbon Whiskey\n\n45% Alc./Vol. (90 Proof)\n\n750 mL\n40% Alc./Vol.\n\nBottled by Old Tom Distillery, Frankfort, KY\n\nGOVERNMENT WARNING:\n\n(1) According to the Surgeon General, women should not drink alcoholic beverages\nduring pregnancy because of the risk of birth defects. (2) Consumption of alcoholic\nbeverages impairs your ability to drive a car or operate machinery, and may cause\nhealth problems.\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 95,
+          "lines": [
+            {
+              "text": "OLD TOM DISTILLERY",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 101,
+                "x1": 776,
+                "y1": 145
+              },
+              "panel": 0
+            },
+            {
+              "text": "Kentucky Straight Bourbon Whiskey",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 89,
+                "y0": 207,
+                "x1": 764,
+                "y1": 244
+              },
+              "panel": 0
+            },
+            {
+              "text": "45% Alc./Vol. (90 Proof)",
+              "confidence": 93,
+              "minWordConfidence": 87,
+              "box": {
+                "x0": 87,
+                "y0": 312,
+                "x1": 505,
+                "y1": 344
+              },
+              "panel": 0
+            },
+            {
+              "text": "750 mL",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 88,
+                "y0": 393,
+                "x1": 220,
+                "y1": 419
+              },
+              "panel": 0
+            },
+            {
+              "text": "40% Alc./Vol.",
+              "confidence": 92,
+              "minWordConfidence": 92,
+              "box": {
+                "x0": 87,
+                "y0": 466,
+                "x1": 291,
+                "y1": 493
+              },
+              "panel": 0
+            },
+            {
+              "text": "Bottled by Old Tom Distillery, Frankfort, KY",
+              "confidence": 96,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 88,
+                "y0": 535,
+                "x1": 701,
+                "y1": 563
+              },
+              "panel": 0
+            },
+            {
+              "text": "GOVERNMENT WARNING:",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 86,
+                "y0": 711,
+                "x1": 506,
+                "y1": 733
+              },
+              "panel": 0
+            },
+            {
+              "text": "(1) According to the Surgeon General, women should not drink alcoholic beverages",
+              "confidence": 95,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 87,
+                "y0": 768,
+                "x1": 1252,
+                "y1": 795
+              },
+              "panel": 0
+            },
+            {
+              "text": "during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 87,
+                "y0": 812,
+                "x1": 1250,
+                "y1": 839
+              },
+              "panel": 0
+            },
+            {
+              "text": "beverages impairs your ability to drive a car or operate machinery, and may cause",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 856,
+                "x1": 1250,
+                "y1": 883
+              },
+              "panel": 0
+            },
+            {
+              "text": "health problems.",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 900,
+                "x1": 319,
+                "y1": 927
+              },
+              "panel": 0
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 0
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.7422962720000005,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "poor",
+      "seconds": 0.12012907499999984,
+      "statuses": {
+        "brand": "Unable to Verify",
+        "classType": "Unable to Verify",
+        "abv": "Unable to Verify",
+        "netContents": "Unable to Verify",
+        "business": "Unable to Verify",
+        "warning": "Unable to Verify",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "poor.png",
+          "text": "",
+          "confidence": 95,
+          "lines": [],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.11992613999999958,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "warning-case",
+      "seconds": 1.0375333309999997,
+      "statuses": {
+        "brand": "Match",
+        "classType": "Match",
+        "abv": "Match",
+        "netContents": "Match",
+        "business": "Match",
+        "warning": "Mismatch",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "warning-case.png",
+          "text": "OLD TOM DISTILLERY\n\nKentucky Straight Bourbon Whiskey\n\n45% Alc./Vol. (90 Proof)\n\n750 mL\n\nBottled by Old Tom Distillery, Frankfort, KY\n\nGovernment Warning:\n\n(1) According to the Surgeon General, women should not drink alcoholic beverages\nduring pregnancy because of the risk of birth defects. (2) Consumption of alcoholic\nbeverages impairs your ability to drive a car or operate machinery, and may cause\nhealth problems.\n\nSYNTHETIC TEST ARTWORK - NOT FOR SALE\n\n",
+          "confidence": 95,
+          "lines": [
+            {
+              "text": "OLD TOM DISTILLERY",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 101,
+                "x1": 776,
+                "y1": 145
+              },
+              "panel": 0
+            },
+            {
+              "text": "Kentucky Straight Bourbon Whiskey",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 89,
+                "y0": 207,
+                "x1": 764,
+                "y1": 244
+              },
+              "panel": 0
+            },
+            {
+              "text": "45% Alc./Vol. (90 Proof)",
+              "confidence": 93,
+              "minWordConfidence": 87,
+              "box": {
+                "x0": 87,
+                "y0": 312,
+                "x1": 505,
+                "y1": 344
+              },
+              "panel": 0
+            },
+            {
+              "text": "750 mL",
+              "confidence": 95,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 393,
+                "x1": 220,
+                "y1": 419
+              },
+              "panel": 0
+            },
+            {
+              "text": "Bottled by Old Tom Distillery, Frankfort, KY",
+              "confidence": 96,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 88,
+                "y0": 535,
+                "x1": 701,
+                "y1": 563
+              },
+              "panel": 0
+            },
+            {
+              "text": "Government Warning:",
+              "confidence": 96,
+              "minWordConfidence": 96,
+              "box": {
+                "x0": 86,
+                "y0": 710,
+                "x1": 455,
+                "y1": 739
+              },
+              "panel": 0
+            },
+            {
+              "text": "(1) According to the Surgeon General, women should not drink alcoholic beverages",
+              "confidence": 95,
+              "minWordConfidence": 94,
+              "box": {
+                "x0": 87,
+                "y0": 768,
+                "x1": 1252,
+                "y1": 795
+              },
+              "panel": 0
+            },
+            {
+              "text": "during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 87,
+                "y0": 812,
+                "x1": 1250,
+                "y1": 839
+              },
+              "panel": 0
+            },
+            {
+              "text": "beverages impairs your ability to drive a car or operate machinery, and may cause",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 856,
+                "x1": 1250,
+                "y1": 883
+              },
+              "panel": 0
+            },
+            {
+              "text": "health problems.",
+              "confidence": 96,
+              "minWordConfidence": 95,
+              "box": {
+                "x0": 88,
+                "y0": 900,
+                "x1": 319,
+                "y1": 927
+              },
+              "panel": 0
+            },
+            {
+              "text": "SYNTHETIC TEST ARTWORK - NOT FOR SALE",
+              "confidence": 95,
+              "minWordConfidence": 90,
+              "box": {
+                "x0": 87,
+                "y0": 1115,
+                "x1": 570,
+                "y1": 1131
+              },
+              "panel": 0
+            }
+          ],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 1.036491975,
+          "qualityNotes": []
+        }
+      ]
+    },
+    {
+      "id": "blank",
+      "seconds": 0.19648879100000066,
+      "statuses": {
+        "brand": "Unable to Verify",
+        "classType": "Unable to Verify",
+        "abv": "Unable to Verify",
+        "netContents": "Unable to Verify",
+        "business": "Unable to Verify",
+        "warning": "Unable to Verify",
+        "presentation": "Manual Review",
+        "category": "Manual Review"
+      },
+      "panels": [
+        {
+          "name": "blank.png",
+          "text": "",
+          "confidence": 0,
+          "lines": [],
+          "width": 1500,
+          "height": 1200,
+          "seconds": 0.19565795100000014,
+          "qualityNotes": [
+            "Overall OCR quality is uncertain. Inspect all evidence."
+          ]
+        }
+      ]
+    }
+  ]
+}
